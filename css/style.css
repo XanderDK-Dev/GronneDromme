@@ -95,6 +95,9 @@ a:link {
     color: mintcream;
     text-decoration: none;
     background-color: darkgreen;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     height: 30px;
     padding-top: 0;
     margin: -8px 500px 0px 500px;
@@ -113,6 +116,9 @@ a:link {
   .footer {
     padding: 8px 10px 0px 10px;
     background-color: darkgreen;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     color: mintcream;
     height: 30px;
     margin: 20px 650px 0px 650px;
