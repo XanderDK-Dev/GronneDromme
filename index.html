@@ -1,40 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <title>Document</title>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="./css/style.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Patrick+Hand&display=swap" rel="stylesheet">
+     <title>Document</title>
 </head>
+
 <body>
-     <nav class="navbar"><a href="index.html">Forside</a>
-          <a href="aertalderman.html">Ærter</a>
-          <a href="boennebluelake.html">Bønner</a>
-          <a href="basilikum.html">Basilikum</a>
+     <nav>
+          <ul class="navbar">
+               <li><a href=#>Grøntsager</a></li>
+               <li><a href=#>krydderurter</a>
+                    <ul>
+                         <li><a href="index.html">Forside</a></li>
+                         <li><a href="aertalderman.html">Ærter</a></li>
+                         <li><a href="boennebluelake.html">Bønner</a></li>
+                         <li><a href="basilikum.html">Basilikum</a></li>
+                    </ul>
+               </li>
+          </ul>
      </nav>
-    <h1>Grønne drømme</h1>
-    <p class="paragraph">Velkommen til vores website for haveentusiaster.</p>
-    <img src="./img/Forside-hoejbed1.jpg" class="front-img" alt="Billede af nogle flotte planter">
-    <p class="paragraph">Siden indeholder informationer om planter, der kan dyrkes i danske haver - både grøntsager,
-         krydderurter, blomster og træer. Det primære fokus ligger dog på spiselige planter. </p>
-    <p class="paragraph">Vi brænder for at være selvforsynende og håber, at vi kan inspirere andre til at gå i
-         samme retning - det påvirker både din families sundhed og vores alles klima i en positiv retning.</p>
-    <h2>Plantedatabasen</h2>
-    <p class="paragraph">Vores plantedatabase vokser dag for dag og indeholder al den information,
-         som du har brug for, hvis du vil dyrke dine egne planter. </p>
-    <p class="paragraph">Hvis du mangler informationer om en plante, opdager forkerte informationer eller mangler en plante,
-         er du velkommen til at skrive til os på <a href="mailto:info@gronnedromme.dk">info@gronnedromme.dk.</a></p>
-    <p class="paragraph">En del af vore informationer er fra<a href="https://da.wikipedia.org/wiki/Forside"> den danske wikipedia.</a></p>
-    <p class="paragraph">Har du lyst til at bidrage med at tilføje planter i plantedatabasen, hører vi meget gerne fra dig.
-         Vi kan altid bruge flere grønne fingre på tastaturer, så databasen efterhånden bliver fyldt mere og mere op. </p>
-    <img src="./img/Forside-hoejbed2.jpg" class="front-img" alt="Billede af en med hænderne i jorden">
-    <h3>Nyeste planter i databasen</h3>
-    <p class="plantlist"><a href="boennebluelake.html">-	Bønne, Blue Lake.</a></p>
-    <a href="boennebluelake.html"><img src="./img/BeanBlueLake.jpg" class="list-img" alt="Billede af en Blue lake bønne"></a>
-    <p class="plantlist"><a href="aertalderman.html">-	Ært, Alderman.</a></p>
-    <a href="aertalderman.html"><img src="./img/PeaAlderman.jpg" class="list-img" alt="Billede af ærter"></a>
-    <p class="plantlist"><a href="basilikum.html">-	Basilikum, Ocimum Basilicum.</a></p>
-    <a href="basilikum.html"><img src="./img/BasilikumOcimumBasilicum.jpg" class="list-img" alt="Billede af basilikum"></a>
-    <footer class="footer">© Grønne Drømme 2023</footer>
+     <h1>Grønne drømme</h1>
+     <p class="paragraph">Velkommen til vores website for haveentusiaster.</p>
+     <img src="./img/Forside-hoejbed1.jpg" class="front-img" alt="Billede af nogle flotte planter">
+     <p class="paragraph">Siden indeholder informationer om planter, der kan dyrkes i danske haver - både grøntsager,
+          krydderurter, blomster og træer. Det primære fokus ligger dog på spiselige planter. </p>
+     <p class="paragraph">Vi brænder for at være selvforsynende og håber, at vi kan inspirere andre til at gå i
+          samme retning - det påvirker både din families sundhed og vores alles klima i en positiv retning.</p>
+     <h2>Plantedatabasen</h2>
+     <p class="paragraph">Vores plantedatabase vokser dag for dag og indeholder al den information,
+          som du har brug for, hvis du vil dyrke dine egne planter. </p>
+     <p class="paragraph">Hvis du mangler informationer om en plante, opdager forkerte informationer eller mangler en
+          plante,
+          er du velkommen til at skrive til os på <a href="mailto:info@gronnedromme.dk">info@gronnedromme.dk.</a></p>
+     <p class="paragraph">En del af vore informationer er fra <a href="https://da.wikipedia.org/wiki/Forside">den danske
+               wikipedia.</a></p>
+     <p class="paragraph">Har du lyst til at bidrage med at tilføje planter i plantedatabasen, hører vi meget gerne fra
+          dig.
+          Vi kan altid bruge flere grønne fingre på tastaturer, så databasen efterhånden bliver fyldt mere og mere op.
+     </p>
+     <img src="./img/Forside-hoejbed2.jpg" class="front-img" alt="Billede af en med hænderne i jorden">
+          <div id="new-plants-text">
+               <h3>Nyeste planter i databasen</h3>
+          </div>
+     <div class="new-plants">
+          <div>
+               <p class="plantlist"><a href="boennebluelake.html">- Bønne, Blue Lake.</a></p>
+               <a href="boennebluelake.html"><img src="./img/BeanBlueLake.jpg" class="list-img"
+                         alt="Billede af en Blue lake bønne"></a>
+          </div>
+          <div>
+               <p class="plantlist"><a href="aertalderman.html">- Ært, Alderman.</a></p>
+               <a href="aertalderman.html"><img src="./img/PeaAlderman.jpg" class="list-img" alt="Billede af ærter"></a>
+          </div>
+          <div>
+               <p class="plantlist"><a href="basilikum.html">- Basilikum, Ocimum Basilicum.</a></p>
+               <a href="basilikum.html"><img src="./img/BasilikumOcimumBasilicum.jpg" class="list-img"
+                         alt="Billede af basilikum"></a>
+          </div>
+     </div>
+     <footer class="footer">© Grønne Drømme 2023</footer>
 </body>
+
 </html>
