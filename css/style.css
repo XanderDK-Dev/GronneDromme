@@ -139,11 +139,10 @@ img {
   margin: 0;
 }
 
-.paragraph {
+p {
   padding: 0;
   margin-top: 15px;
   text-align: left;
-  width: 550px;
 }
 
 .front-img {
@@ -185,51 +184,47 @@ a:hover, a:active {
 .navbar {
   color: mintcream;
   background-color: darkgreen;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
   text-decoration: none;
-  justify-content: space-evenly;
   list-style: none;
   border-radius: 0 0 10px 10px;
   height: 30px;
-  margin: 0 auto;
   position: fixed;
-
+  width: 80%;
 }
 
-/* color: mintcream;
-text-decoration: none;
-background-color: darkgreen;
-display: flex;
-flex-direction: row;
-align-items: center;
-height: 30px;
-padding-top: 0;
-margin: -8px auto 0px auto;
-border-bottom-left-radius: 10px;
-border-bottom-right-radius: 10px;
-position: fixed;*/
+.nav-menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style: none;
+}
 
 nav ul li:hover ul {
   visibility: visible;
 }
 
 nav ul li:hover {
-  background-color: white;
-  opacity: 0.5;
+  background-color: hsl(121, 100%, 25%);
+  border-radius: 5px;
+}
+
+nav ul li {
+  padding-bottom: 7px;
+  width: 150px;
 }
 
 nav ul ul {
   flex-direction: column;
-  position: absolute;
+  position: fixed;
+  align-items: center;
   z-index: 1;
-  top: 1.5rem;
+  top: 1.88rem;
+  width: 150px;
   background-color: darkgreen;
   border-radius: 0 0 10px 10px;
-  width: 20%;
   visibility: hidden;
-  max-width: 112px;
+  list-style: none;
 
 }
 
