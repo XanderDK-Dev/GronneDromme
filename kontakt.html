@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="./css/style.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Patrick+Hand&display=swap" rel="stylesheet">
+     <title>Kontakt os</title>
+</head>
+
+<body>
+     <nav class="navbar">
+          <ul class="nav-menu">
+               <li><a href="index.html">Forside</a></li>
+               <li><a href="#">Grøntsager</a>
+                    <ul>
+                         <li><a href="aertalderman.html">Ærter</a></li>
+                         <li><a href="boennebluelake.html">Bønner</a></li>
+                    </ul>
+               </li>
+               <li><a href="#">Krydderurter</a>
+                    <ul>
+                         <li><a href="basilikum.html">Basilikum</a></li>
+                    </ul>
+               </li>
+               <li><a href="kontakt.html">Kontakt os</a></li>
+          </ul>
+     </nav>
+     <h1>Kontakt os</h1>  
+     <form action="kontaktlanding.html">
+        <p class="p-align"><label for="name">Navn:</label> <input type="text"></p>
+        <p class="p-align"><label for="email">Email:</label> <input type="email"></p>
+        <p class="p-align"><label for="besked">Besked:</label> <input type="text" placeholder="Indtast din besked..." class="message"></p>
+        <p class="p-align"><label for="ny-plante">Ny plante til databasen:</label> <input type="checkbox"></p>
+        <p class="p-align"><label for="plante-navn">Plantens danske navn:</label> <input type="text"></p>
+        <p class="p-align"><label for="plante-variant">Plantens variant:</label> <input type="text"></p>
+        <p class="p-align"><label for="plante-botanik">Plantens botaniske navn:</label> <input type="text"></p>
+        <p class="p-align"><label for="plante-type">Plantens type:</label> <input type="text"></p>
+        <p class="p-align"><label for="plante-højde">Plantens højde:</label> <input type="number">cm</p>
+        <p class="p-align"><label for="plante-reach">Plantens rækkeafstand:</label> <input type="number">cm</p>
+        <p class="p-align"><label for="plante-dybde">Plantens sådybde:</label> <input type="number">cm</p>
+        <p class="p-align"><label for="plante-lys">Plantens lysforhold:</label> 
+        <select>  
+            <option value="Fuld">Fuld sol</option>
+            <option value="Indirekte">Indirekte sol</option>
+        </select></p>
+        <p class="p-align"><label for="forspire">Planten forspires i:</label> 
+        <select multiple size="12">  
+            <option value="januar">Januar</option>
+            <option value="febuar">Febuar</option>
+            <option value="marts">Marts</option>
+            <option value="april">April</option>
+            <option value="maj">Maj</option>
+            <option value="juni">Juni</option>
+            <option value="juli">Juli</option>
+            <option value="august">August</option>
+            <option value="september">September</option>
+            <option value="oktober">Oktober</option>
+            <option value="november">November</option>
+            <option value="december">December</option>
+        </select></p>
+        <p class="p-align"><label for="udplantes">Planten udplantes i:</label> 
+        <select multiple size="12">  
+            <option value="januar">Januar</option>
+            <option value="febuar">Febuar</option>
+            <option value="marts">Marts</option>
+            <option value="april">April</option>
+            <option value="maj">Maj</option>
+            <option value="juni">Juni</option>
+            <option value="juli">Juli</option>
+            <option value="august">August</option>
+            <option value="september">September</option>
+            <option value="oktober">Oktober</option>
+            <option value="november">November</option>
+            <option value="december">December</option>
+        </select></p>
+        <p class="p-align"><label for="plante-spirer">Planten spirer efter ca..:</label> <input type="number">dage</p>
+        <p class="p-align"><label for="plante-høst">Planten er klar til høst efter ca..:</label> <input type="number">dage</p>
+        <p class="p-align"><label for="plante-dybde">Plante beskrivelse:</label> <input type="text" placeholder="Udfyld her..." class="message"></p>
+        <p class="p-align"><input type="submit" id="send"></p>
+     </form>
+</body>
